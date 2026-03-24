@@ -569,6 +569,23 @@
       letter-spacing: 0.02em;
     }
 
+    .paper-download {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--teal);
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      border: 1px solid var(--teal);
+      padding: 0.4rem 1rem;
+      border-radius: 2px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .paper-download:hover {
+      background: var(--teal);
+      color: #fff;
+    }
     .paper-abstract {
       font-size: 0.9rem;
       font-weight: 300;
@@ -996,7 +1013,7 @@
       </p>
 
       <div class="paper-entry">
-        <span class="paper-status status-preprint">Preprint · In preparation</span>
+        <span class="paper-status status-preprint">Preprint · Draft</span>
         <div class="paper-title">
           Categorical Spectralism: A Functorial Framework for Spectral Complexity and a Conjecture on Substrate-Independent Categorical Equivalence
         </div>
@@ -1004,6 +1021,7 @@
         <p class="paper-abstract">
           We introduce Categorical Spectralism (CS), a functorial framework for the analysis of systems with inaccessible internal structure. Beginning with a category U of undefined objects — systems whose internal algebra cannot be directly accessed — we construct a functor F: U → Hilb to the category of Hilbert spaces, recovering spectral properties from observable state transitions alone. From this construction we derive the Spectral Complexity Index (SCI), a continuous substrate-independent complexity measure computable in polynomial time. We state the Substrate-Independence Conjecture: that phenomenal conscious experience is characterised by categorical-spectral invariants preserved under F independently of physical substrate. We demonstrate that CS is a strict generalisation of Koopman operator theory, and identify its relationship to noncommutative geometry, integrated information theory, the Free Energy Principle, and higher category theory.
         </p>
+        <a href="categorical-spectralism-draft.pdf" class="paper-download" target="_blank">↓ Download draft PDF</a>
       </div>
     </div>
   </section>
